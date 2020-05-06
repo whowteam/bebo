@@ -18,6 +18,34 @@
       opacity: 1 !important;
       font-weight: 700 !important;
     }
+
+ .column {
+  float: left;
+  width: 31%;
+  margin-bottom: 8px;
+  padding: 0 3px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 12px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   </style>
 </head>
 
@@ -54,22 +82,119 @@
 			          <div class="flex-item flex-column">
 			            <h2 class="add-top-margin">Our Team</h2>
 			            <hr>
-			            <p class="text">
+			            
 
-			              [Can include team member bios and their roles in the app here].
+				<div class="row">
+				  <div class="column">
+				    <div class="card">
+				      <img src="img/bebo.png" alt="Jane" style="width:200px;height:200px;">
+				      <div class="container">
+				        <h2>Kalai Ramea</h2>
+				        <p class="title">Team lead & Chatbot Guru</p>
+				        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+				      </div>
+				    </div>
+				  </div>
 
-			              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
-			              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
-			              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
-			              custosi traductores. At solmen va esser.
-			            </p>
-			            <p class="text">
-			              Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
-			              vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos
-			              ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-			              excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
-			              animi, id est laborum et dolorum fuga.
-			            </p>
+				  <div class="column">
+				    <div class="card">
+				      <img src="img/bebo.png" alt="Jane" style="width:200px;height:200px;">
+				      <div class="container">
+				        <h2>Barbara Cromarty</h2>
+				        <p class="title">Marketing Wizard</p>
+				        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="column">
+				    <div class="card">
+				      <img src="img/bebo.png" alt="Jane" style="width:200px;height:200px;">
+				      <div class="container">
+				        <h2>Barb Hawes</h2>
+				        <p class="title">Language Juggernaut</p>
+				        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+				      </div>
+				    </div>
+				  </div>
+  
+
+				</div>
+
+
+
+				<div class="row">
+
+				  <div class="column">
+				    <div class="card">
+				      <img src="img/bebo.png" alt="Jane" style="width:200px;height:200px;">
+				      <div class="container">
+				        <h2>Joanne Lee</h2>
+				        <p class="title">Bug Exterminator</p>
+				        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+
+				      </div>
+				    </div>
+				  </div>
+
+
+
+				  <div class="column">
+				    <div class="card">
+				      <img src="img/bebo.png" alt="Jane" style="width:200px;height:200px;">
+				      <div class="container">
+				        <h2>Anne Plochowietz</h2>
+				        <p class="title">....</p>
+				        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+				      </div>
+				    </div>
+				  </div>
+
+				  <div class="column">
+				    <div class="card">
+				      <img src="img/bebo.png" alt="Jane" style="width:200px;height:200px;">
+				      <div class="container">
+				        <h2>Nazly Primoradi</h2>
+				        <p class="title">....</p>
+				        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+				      </div>
+				    </div>
+				  </div>
+  
+
+				</div>
+
+				<div class="row">
+
+				  <div class="column">
+				    <div class="card">
+				      <img src="img/bebo.png" alt="Jane" style="width:200px;height:200px;">
+				      <div class="container">
+				        <h2>Lisa Rythen-Larsson</h2>
+				        <p class="title">....</p>
+				        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+
+				      </div>
+				    </div>
+				  </div>
+
+
+				  <div class="column">
+				    <div class="card">
+				      <img src="img/bebo.png" alt="Jane" style="width:200px;height:200px;">
+				      <div class="container">
+				        <h2>Sahoko Yui</h2>
+				        <p class="title">....</p>
+				        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+				      </div>
+				    </div>
+				  </div>
+
+
+  
+
+				</div>
+
 	
 			            
 
