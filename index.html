@@ -1,110 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!doctype html>
+<head>
 
-<head>   
-	<title>BEBO, the Benefits Bot</title>
-	 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/menu.js"></script>
-  <style>
-    .menu-index {
-      color: rgb(255, 255, 255) !important;
-      opacity: 1 !important;
-      font-weight: 700 !important;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>BEBO, the Benefits Bot</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/one-page-wonder.css" rel="stylesheet">
+
 </head>
 
+<body>
 
-    <body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <!-- <a href="#" class="navbar-left"><img src="img/bebo-nonwhite-small.png"></a> -->
 
-    	<div class="menu-container">
-    		<div class="menu-container">
-  				<div class="menu">
-				  <div class="menu-table flex-row-space-between">
-				    <div class="logo flex-row-center">
-				      <a href="index.html">BEBO, the Benefits Bot</a>
-				    </div>
-				    <a class="menu-button" tabindex="0" href="javascript:void(0)">
-				      <img src="img/menu.png">
-				    </a>
-				    <div class="menu-items flex-row-center flex-item">
-				      <a href="index-es.html" class="menu-widget">Español</a>
-				      <a href="index.html" class="menu-widget">Home</a>
-				      <a href="story.html" class="menu-widget">Story of BEBO</a>
-				      <a href="team.html" class="menu-widget">Team</a>
-				      <a href="faq.html" class="menu-widget">FAQ</a>
-				    </div>
-				  </div>
-				</div>
-			</div>
-
-    	</div>
-  			<div class="content-container">
-    			<div class="content">
-    				<div class="flex-row">
-			          <div class="flex-item flex-column">
-			            <img class="image" src="img/bebo.png" style="width:202px;height:206px;">
-			           </div>
-			            <div class="flex-item flex-column">
-			            <p class="text text-large">
-				            Hello! I am BEBO.
-
-				            Click on the bottom right icon to talk to me.
-
-			            </p>
-			          </div>
-			        </div>
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+      <img src="img/bebo-nonwhite-small.png" href="index.html" alt="">
+    </li>
 
 
+    </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index-es.html">Español</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="story.html">Story of BEBO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container">
+        <!-- <h1 class="masthead-heading mb-0">BEBO</h1> -->
+        <img src="img/bebo-nonwhite.png" style="width:350px;height:350px;"  alt="">
+        <h2 class="masthead-subheading mb-0">The Benefits Bot</h2>
+        <a href="#what" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container" id="what">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/whatisbebo.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">What is BEBO?</h2>
+            <p>BEBO (a shortened version of 'Benefits Bot') is a free conversational AI chatbot designed to assist those seeking information about unemployment benefits.  BEBO was developed in May 2020, during a week-long hackathon <a href="https://www.theexpatwoman.com/hackathon/">(“Women Hack the Crisis” hosted by The Expat Woman in San Francisco, CA)</a>. Team WHOW (Women Helping Other Women) consists of eight amazing women with diverse backgrounds in social science, marketing, business development, engineering, data science and programming who came together specifically for this project. See our <a href="team.html">Team</a> page for more information.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/benefits.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">How can BEBO help you?</h2>
+            <p>BEBO can help you get answers to general questions about unemployment benefits and can direct you to resources where you can learn more. It includes information about unemployment benefits, eligibility, EDD cards, pandemic-related assistance, and family leave, and can point you to related resources such as food assistance programs. Currently, BEBO is focused on California residents but in the future may include information for workers in other states as well.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <p align="center">
+
+      <iframe width="840" height="630"
+            src="https://youtube.com/embed/MDCLVYdNrlQ?autoplay=0">
+      </iframe> </p>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/interact.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">How can I interact with BEBO?</h2>
+            <p>You can click on the bottom-right icon to chat with BEBO. BEBO can answer common questions related to benefits in California such as:
+                    <ul>
+                      <li> I am taking care of my child. Am I eligible for benefits?</li>
+                      <li> I got laid off due to COVID. Can you help?</li>
+                      <li> I need help finding food.</li>
+                      <li> How long does it take to get an EDD card?</li>
+                      <li> I want to apply for family leave.</li>
+                      <li> I am undocumented. Can I get benefits? </li>
+                      <li> I don't know where to start. How can you help?</li>
+                    </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-			     <p align="center">
-
-			            <iframe width="840" height="630"
-						src="https://youtube.com/embed/MDCLVYdNrlQ?autoplay=0">
-						</iframe> </p>
 
 
+  <!-- Footer -->
+  <footer class="py-5 bg-blue">
+    <div class="container">
+      <p class="m-0 text-center text-white small">Copyright &copy;  Women Helping Other Women 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
 
-	
-
-
-
-
-
-        		</div>
-        	</div>
-
-
-    	<div class="menu-container">
-    		<div class="menu-container">
-  				<div class="menu">
-				  <div class="menu-table flex-row-space-between">
-
-				    <div class="menu-items flex-row-center flex-item">
-
-				    	<p style="color:white;">
-				    	
-    					Copyright © 2020 Women Helping Other Women (WHOW).
-    				</p>
-						
-
-				    </div>
-				  </div>
-				</div>
-			</div>
-
-    	</div>
-
-
-    </body>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
 
@@ -116,12 +167,16 @@
         "voiceInput": true,
         "botIds":["bebo-3pqse"],
         "automaticChatOpenOnNavigation":false,
-    	"onInit": function(){
-    		Kommunicate.updateUserLanguage("en-US");
-    	}};
+      "onInit": function(){
+        Kommunicate.updateUserLanguage("en-US");
+      }};
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
         window.kommunicate = m; m._globals = kommunicateSettings;
       })(document, window.kommunicate || {});
   </script>
+
+</body>
+
+</html>

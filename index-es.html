@@ -1,171 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!doctype html>
+<head>
 
-<head>   
-	<title>BEBO, the Benefits Bot</title>
-	 <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/menu.js"></script>
-  <style>
-    .menu-index {
-      color: rgb(255, 255, 255) !important;
-      opacity: 1 !important;
-      font-weight: 700 !important;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>BEBO, the Benefits Bot</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/one-page-wonder.css" rel="stylesheet">
+
 </head>
 
+<body>
 
-    <body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <!-- <a href="#" class="navbar-left"><img src="img/bebo-nonwhite-small.png"></a> -->
 
-    	<div class="menu-container">
-    		<div class="menu-container">
-  				<div class="menu">
-				  <div class="menu-table flex-row-space-between">
-				    <div class="logo flex-row-center">
-				      <a href="index.html">BEBO, the Benefits Bot</a>
-				    </div>
-				    <a class="menu-button" tabindex="0" href="javascript:void(0)">
-				      <img src="img/menu.png">
-				    </a>
-				    <div class="menu-items flex-row-center flex-item">
-				      <a href="index.html" class="menu-widget">English</a>
-				      <a href="index-es.html" class="menu-widget">Inicio</a>
-				      <a href="story_es.html" class="menu-widget">Historia de BEBO</a>
-				      <a href="team_es.html" class="menu-widget">Equipo</a>
-				    </div>
-				  </div>
-				</div>
-			</div>
-
-    	</div>
-  			<div class="content-container">
-    			<div class="content">
-    				<div class="flex-row">
-			          <div class="flex-item flex-column">
-			            <img class="image" src="img/bebo.png" style="width:202px;height:206px;">
-			           </div>
-			            <div class="flex-item flex-column">
-			            <p class="text text-large">
-				            ¡Hola! Soy BEBO! Presiona el icono de abajo a la derecha para hablar conmigo.
-
-			            </p>
-
-			          </div>
-			        </div>
-			        <div class="flex-row">
-			          <div class="flex-item flex-column">
-			          	<h2 class="add-top-margin">¿Qué es BEBO?</h2>
-			            <hr>
-			            <p class="text add-top-margin">
-
-			            BEBO (una abreviación de 'Benefits Bot') es un “chatbot” gratuito que usa IA (Inteligencia Artificial) para ayudar a aquellos que buscan información sobre beneficios de desempleo. BEBO se desarrolló en mayo de 2020, durante un hackathon de una semana <a href="https://www.theexpatwoman.com/hackathon/">("Women Hack the Crisis" organizado por The Expat Woman en San Francisco, CA)</a>. El equipo WHOW (Women Helping Other Women), formado por ocho mujeres increíbles con profesiones muy distintas (ciencias sociales, marketing, desarrollo de negocios, ingeniería, ciencia de datos y programación), se creó específicamente para este proyecto. Vea la página del Equipo para más información.
-
-			            </p>
-			          </div>
-			        </div>
-        			<div class="flex-row">
-			          <div class="flex-item flex-column">
-			            <h2 class="add-top-margin">¿Cómo BEBO te puede ayudar?</h2>
-			            <hr>
-			            <p class="text">
-			              BEBO puede ayudarlo para obtener respuestas a preguntas generales sobre los beneficios de desempleo y puede dirigirlo a lugares donde obtener más información. Incluye información sobre beneficios de desempleo, elegibilidad, tarjetas EDD, asistencia relacionada con pandemias y licencias por familia. Tambien puede indicarle recursos relacionados como programas de asistencia alimentaria. Actualmente, BEBO se centra en los residentes de California, pero en el futuro también podria incluir información para trabajadores en otros estados.
-			            </p>
-
-			    
-			          </div>
-			        </div>
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+      <img src="img/bebo-nonwhite-small.png" href="index.html" alt="">
+    </li>
 
 
-			        <div class="flex-row">
-			          <div class="flex-item flex-column">
-			            <h2 class="add-top-margin">¿Cómo se construyó BEBO?</h2>
-			            <hr>
-			            <p class="text">
-			              BEBO es único porque se basó en una extensa investigación de usuarios realizada por nuestro equipo. Investigamos los puntos débiles de las personas que usan el sistema revisando varias publicaciones en las redes sociales y obtuvimos más de cincuenta preguntas para abordarlas. BEBO está diseñado para centrarse en proporcionar respuestas personalizadas a las personas que necesitan ayuda, en lugar de proporcionar una pregunta-respuesta genérica de estilo de preguntas frecuentes.
-			            </p>
+    </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
 
-			            <p class="text">
-			            Utilizamos el marco <a href="https://dialogflow.com/">Dialogflow</a> para diseñar nuestro chatbot. Diseñamos las conversaciones de manera que cada diálogo retenga una memoria contextual para pasar a la siguiente conversación. También probamos y asignamos vidas útiles a cada memoria contextual, que puede variar según el contexto. Esto ayuda a BEBO a reducirse para obtener las respuestas correctas a las preguntas de los usuarios. También probamos BEBO exhaustivamente para que cualquier variación de la pregunta o frase del usuario se seleccione para buscar la respuesta correcta. También tuvimos especial cuidado al elegir palabras para que BEBO pueda sonar humano.
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">English</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index-es.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="story-es.html">Historia de BEBO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team-es.html">Equipo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq-es.html">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-			            </p>
-			    
-			          </div>
-			        </div>
+  <header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container">
+        <!-- <h1 class="masthead-heading mb-0">BEBO</h1> -->
+        <img src="img/bebo-nonwhite.png" style="width:350px;height:350px;"  alt="">
+        <h2 class="masthead-subheading mb-0">The Benefits Bot</h2>
+        <a href="#what" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container" id="what">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/whatisbebo.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">¿Qué es BEBO?</h2>
+            <p>BEBO (una abreviación de 'Benefits Bot') es un “chatbot” gratuito que usa IA (Inteligencia Artificial) para ayudar a aquellos que buscan información sobre beneficios de desempleo. BEBO se desarrolló en mayo de 2020, durante un hackathon de una semana <a href="https://www.theexpatwoman.com/hackathon/">("Women Hack the Crisis" organizado por The Expat Woman en San Francisco, CA)</a>. El equipo WHOW (Women Helping Other Women), formado por ocho mujeres increíbles con profesiones muy distintas (ciencias sociales, marketing, desarrollo de negocios, ingeniería, ciencia de datos y programación), se creó específicamente para este proyecto. Vea la página del Equipo para más información.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/benefits.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">¿Cómo BEBO te puede ayudar?</h2>
+            <p>BEBO puede ayudarlo para obtener respuestas a preguntas generales sobre los beneficios de desempleo y puede dirigirlo a lugares donde obtener más información. Incluye información sobre beneficios de desempleo, elegibilidad, tarjetas EDD, asistencia relacionada con pandemias y licencias por familia. Tambien puede indicarle recursos relacionados como programas de asistencia alimentaria. Actualmente, BEBO se centra en los residentes de California, pero en el futuro también podria incluir información para trabajadores en otros estados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <p align="center">
+
+      <iframe width="840" height="630"
+            src="https://youtube.com/embed/MDCLVYdNrlQ?autoplay=0">
+      </iframe> </p>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="img/interact.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">¿Cómo puedo interactuar con BEBO?</h2>
+            <p>Puede presionar el icono inferior derecho para chatear con BEBO. BEBO puede responder preguntas comunes relacionadas con los beneficios en California, tales como:
+                    <ul>
+                      <li> Estoy cuidando a mi hijo. ¿Soy elegible para los beneficios?</li>
+                      <li> Me despidieron debido a COVID. ¿Puede usted ayudar?</li>
+                      <li> Necesito ayuda para encontrar comida.</li>
+                      <li> ¿Cuánto tiempo lleva obtener una tarjeta EDD?</li>
+                      <li> Quiero solicitar un permiso familiar.</li>
+                      <li> Soy un trabajador indocumentado. ¿Puedo obtener beneficios?</li>
+                      <li> No se nada. ¿Qué puedo hacer?</li>
+                    </ul></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-			         <div class="flex-row">
-			          <div class="flex-item flex-column">
-			            <h2 class="add-top-margin">¿Cómo puedo interactuar con BEBO?</h2>
-			            <hr>
-			            <p class="text">
-			              Puede presionar el icono inferior derecho para chatear con BEBO. Nuestro equivalente del asistente de Google Voice está siendo probado en este momento. Por favor, vuelva a visitanos para mantenerse actualizado!
-
-						 
-
-			            </p>
-			            <p class="text">
-			              BEBO puede responder preguntas comunes relacionadas con los beneficios en California, tales como:
-			              <ul>
-			              	<li> Estoy cuidando a mi hijo. ¿Soy elegible para los beneficios?</li>
-			              	<li> Me despidieron debido a COVID. ¿Puede usted ayudar?</li>
-			              	<li> Necesito ayuda para encontrar comida.</li>
-			              	<li> ¿Cuánto tiempo lleva obtener una tarjeta EDD?</li>
-			              	<li> Quiero solicitar un permiso familiar.</li>
-			              	<li> No se nada. ¿Qué puedo hacer?</li>
-			              	<li> Soy un trabajador indocumentado. ¿Puedo obtener beneficios?</li>
-			              </ul>
-			            </p>
-			          </div>
-			        </div>
-
-        			<div class="flex-row">
-			          <div class="flex-item flex-column">
-			            <h2 class="add-top-margin">¿Cómo puedo contactar al Equipo WHOW?</h2>
-			            <hr>
-			            <p class="text">
-			              Si tiene alguna pregunta o sugerencia, envíenos un correo electrónico a <a href="mailto:whowteam@gmail.com">whowteam@gmail.com</a>
-			            </p>
-
-			    
-			          </div>
-			        </div>
 
 
+  <!-- Footer -->
+  <footer class="py-5 bg-blue">
+    <div class="container">
+      <p class="m-0 text-center text-white small">Copyright &copy;  Women Helping Other Women 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
-
-        		</div>
-        	</div>
-
-
-           	<div class="menu-container">
-    		<div class="menu-container">
-  				<div class="menu">
-				  <div class="menu-table flex-row-space-between">
-
-				    <div class="menu-items flex-row-center flex-item">
-
-				    	<p style="color:white;">
-				    	
-    					Copyright © 2020 Women Helping Other Women (WHOW).
-    				</p>
-						
-
-				    </div>
-				  </div>
-				</div>
-			</div>
-
-    	</div>
-
-    </body>
 
 <script type="text/javascript">
       /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
@@ -175,9 +167,9 @@
         "voiceInput": true,
         "botIds":["bebo-3pqse"],
         "automaticChatOpenOnNavigation":true,
-    	"onInit": function(){
-    		Kommunicate.updateUserLanguage("es");
-    	}};
+      "onInit": function(){
+        Kommunicate.updateUserLanguage("es");
+      }};
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
@@ -186,3 +178,6 @@
   </script>
 
 
+</body>
+
+</html>

@@ -40,19 +40,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index-es.html">Español</a>
+            <a class="nav-link" href="index.html">English</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index-es.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="story.html">Story of BEBO</a>
+            <a class="nav-link" href="story-es.html">Historia de BEBO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="team.html">Team</a>
+            <a class="nav-link" href="team-es.html">Equipo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
+            <a class="nav-link" href="faq-es.html">FAQ</a>
           </li>
         </ul>
       </div>
@@ -66,21 +66,23 @@
   <section>
     <div class="container">
           <div class="p-5">
-            <h2 class="display-4">Why did we build BEBO?</h2>
+            <h2 class="display-4">¿Por qué construimos BEBO?</h2>
 
-            <p class="text">
-                    Since the start of the COVID-19 crisis, an unprecedented number of people have been trying to navigate the unemployment system. Many have found the experience frustrating. With millions of newly unemployed people seeking benefit information at the same time, the system is understandably overloaded. Information available online can be confusing, and it is difficult to reach agents by phone. Just a simple social media search shows the frustration of people in getting the right help.
+           <p class="text">
+                    Desde el comienzo de la crisis de COVID-19, un número sin precedentes de personas ha estado tratando de navegar el sistema de desempleo. Muchos han encontrado la experiencia frustrante. Con millones de personas desempleadas buscando al mismo tiempo información sobre beneficios el sistema esta sobrecargado. La información disponible en línea puede ser confusa y es difícil comunicarse con los agentes por teléfono. Una simple búsqueda en redes sociales muestra la frustración de las personas tratando de obtener la ayuda adecuada.
                   </p>
                   <center>
                   <img class="image" src="img/frustration.png" style="width:400px;height:400px;" >
                 </center>
 
                   <p class="text">
-                  Of the millions of jobs that have been lost in this crisis, the majority were held by women. In certain industry sectors <a href="https://www.fastcompany.com/90488089/women-are-disproportionately-impacted-by-covid-19">women have been disproportionately affected by COVID-19 related job losses</a>. Women of color, immigrants, caretakers, single moms, and non-native English speakers have been particularly impacted. 
+
+                  De los millones de empleos que se han perdido en esta crisis, la mayoría estaban ocupados por mujeres. En ciertos sectores industriales, <a href="https://www.fastcompany.com/90488089/women-are-disproportionately-impacted-by-covid-19">las mujeres se han visto desproporcionadamente afectadas por la pérdida de empleos relacionados con COVID-19</a>. Las mujeres de color, las inmigrantes, las que ayudan a otros, las madres solteras y las que no hablan inglés se han visto particularmente afectadas.
+
                   </p>
             
             <p class="text">
-                  We built BEBO to help direct people toward useful resources and to ease the application process.  To address the complexity of this issue, our research team spent hours going through personal stories of people to identify the pain points in the process. We developed several profiles of people to understand better how we could personalize and direct the appropriate answers. Each profile involved developing several decision trees such as the flowchart shown below, which goes through different loops and branches to find out the right solution for the user.
+                  Creamos BEBO para ayudar a dirigir a las personas hacia recursos útiles y facilitar el proceso de solicitud. Para abordar la complejidad de este problema, nuestro equipo de investigación pasó muchas horas revisando historias personales para identificar los puntos débiles en el proceso. Desarrollamos varios perfiles de personas para comprender mejor cómo personalizar las solicitudes y dar respuestas apropiadas. Cada perfil implicaba desarrollar varios árboles de decisión, como el diagrama de flujo que se muestra a continuación, que pasa por diferentes ciclos y ramas para encontrar la solución mas adecuada a cada usuario.
                 </p>
 
                 <center>
@@ -89,15 +91,13 @@
                  
 
             <p class="text">
-                We hope this bot will help those in our community who are most vulnerable to get the answers they need. We also envision expanding BEBO in the future to include:
+                Esperamos que este bot ayude a las personas más vulnerables de nuestra comunidad a obtener las respuestas que necesitan. También vamos a expandir BEBO en el futuro para incluir:
                 <ul>
-                  <li> Richer content, to answer more questions and with more detail
-                  <li> Information for other states besides California
-                  <li> More information about related services, such as job hunt tools or legal resources
+                  <li> Un contenido más rico, para responder más preguntas y con más detalle.
+                  <li> Información para otros estados además de California
+                  <li> Más información sobre servicios relacionados, como herramientas de búsqueda de empleo o recursos legales.
                 </ul>
                 <p>
-
-
 
           </div>
     </div>
@@ -128,12 +128,12 @@
       /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
       (function(d, m){
         var kommunicateSettings = {"appId":"ef3326502e57904cb2083da9e8ecb192",
-        "popupWidget":true,
+        "popupWidget":false,
         "voiceInput": true,
         "botIds":["bebo-3pqse"],
-        "automaticChatOpenOnNavigation":false,
+        "automaticChatOpenOnNavigation":true,
       "onInit": function(){
-        Kommunicate.updateUserLanguage("en-US");
+        Kommunicate.updateUserLanguage("es");
       }};
         var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
         s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
