@@ -124,7 +124,7 @@
 
 
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
       /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
       (function(d, m){
         var kommunicateSettings = {"appId":"ef3326502e57904cb2083da9e8ecb192",
@@ -140,7 +140,26 @@
         var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
         window.kommunicate = m; m._globals = kommunicateSettings;
       })(document, window.kommunicate || {});
-  </script>
+  </script> -->
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="img/bebo-nonwhite.png"
+  intent="WELCOME"
+  chat-title="BEBO"
+  agent-id="b197a074-67eb-4935-8783-8338af97d2c1"
+  language-code="en"
+></df-messenger>
+<style>
+  df-messenger {
+   --df-messenger-bot-message: #24abc2;
+   --df-messenger-button-titlebar-color: #24abc2;
+   --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #878fac;
+   --df-messenger-user-message: #878fac;
+  }
+</style>
 
 </body>
 
